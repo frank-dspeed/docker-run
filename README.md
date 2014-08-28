@@ -1,10 +1,10 @@
 docker-run
 ===
 
-Allows you to execute a shell script inside a running container. Requires [jpetazzo/nsenter](https://github.com/jpetazzo/nsenter) to be installed.
+Allows you to execute a shell script inside a running container. Requires [dockerimages/nsenter](https://github.com/dockerimages/nsenter) to be installed.
 
 # Usage
 
 Simply
 
-`sudo docker-run ee5dd ./test.sh`
+`sudo docker-run containerid ./test.sh`
